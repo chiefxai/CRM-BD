@@ -1,0 +1,57 @@
+[
+  {
+    "id": "C-7650",
+    "khata": 0,
+    "ltv": 0,
+    "created_at": "2026-07-09T05:50:27.650Z",
+    "name": "britto",
+    "phone": "+918939479296",
+    "locality": "chennai",
+    "type": "Individual"
+  },
+  {
+    "id": "C001",
+    "name": "Kavitha Ramesh",
+    "phone": "+91 98421 33012",
+    "type": "Individual",
+    "locality": "K.K. Nagar, Madurai",
+    "ltv": 18420,
+    "khata": 0
+  },
+  {
+    "id": "C002",
+    "name": "Selvam Logistics",
+    "phone": "+91 94432 87711",
+    "type": "Corporate",
+    "locality": "Simmakkal, Madurai",
+    "ltv": 142300,
+    "khata": 8600
+  },
+  {
+    "id": "C003",
+    "name": "Priya Anand",
+    "phone": "+91 90031 22456",
+    "type": "Individual",
+    "locality": "Anna Nagar, Madurai",
+    "ltv": 6210,
+    "khata": 450
+  },
+  {
+    "id": "C004",
+    "name": "Murugan Logistics Group",
+    "phone": "+91 96297 70044",
+    "type": "Corporate",
+    "locality": "Tallakulam, Madurai",
+    "ltv": 261800,
+    "khata": 22400
+  },
+  {
+    "id": "C005",
+    "name": "Lakshmi Narayanan",
+    "phone": "+91 89034 51290",
+    "type": "Individual",
+    "locality": "Goripalayam, Madurai",
+    "ltv": 3120,
+    "khata": 0
+  }
+]

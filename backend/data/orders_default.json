@@ -1,0 +1,107 @@
+[
+  {
+    "id": "POL-10231",
+    "customer": "Kavitha Ramesh",
+    "phone": "+91 98421 33012",
+    "items": [
+      {
+        "n": "SureShield Term Life Plan",
+        "q": "1 Policy",
+        "p": 1250
+      },
+      {
+        "n": "Family Health Shield Pro",
+        "q": "1 Policy",
+        "p": 2800
+      }
+    ],
+    "total": 4050,
+    "status": "Confirmed",
+    "source": "AI Call",
+    "time": "10:42 AM",
+    "delivery": "Digital Delivery"
+  },
+  {
+    "id": "POL-10230",
+    "customer": "Selvam Logistics",
+    "phone": "+91 94432 87711",
+    "items": [
+      {
+        "n": "Comprehensive Motor Cover",
+        "q": "15 Vehicles",
+        "p": 27750
+      },
+      {
+        "n": "Commercial Property Shield",
+        "q": "1 Policy",
+        "p": 8500
+      }
+    ],
+    "total": 36250,
+    "status": "Underwriting",
+    "source": "AI Call",
+    "time": "10:15 AM",
+    "delivery": "Physical Copy"
+  },
+  {
+    "id": "POL-10229",
+    "customer": "Priya Anand",
+    "phone": "+91 90031 22456",
+    "items": [
+      {
+        "n": "Senior Citizen Health Cover",
+        "q": "1 Policy",
+        "p": 4200
+      }
+    ],
+    "total": 4200,
+    "status": "Quote Generated",
+    "source": "WhatsApp",
+    "time": "9:58 AM",
+    "delivery": "Digital Delivery"
+  },
+  {
+    "id": "POL-10228",
+    "customer": "Lakshmi Narayanan",
+    "phone": "+91 89034 51290",
+    "items": [
+      {
+        "n": "Comprehensive Motor Cover",
+        "q": "1 Policy",
+        "p": 1850
+      },
+      {
+        "n": "Personal Accident Cover",
+        "q": "1 Policy",
+        "p": 650
+      }
+    ],
+    "total": 2500,
+    "status": "Active",
+    "source": "AI Call",
+    "time": "9:20 AM",
+    "delivery": "Digital Delivery"
+  },
+  {
+    "id": "POL-10227",
+    "customer": "Murugan Logistics Group",
+    "phone": "+91 96297 70044",
+    "items": [
+      {
+        "n": "Commercial Property Shield",
+        "q": "2 Properties",
+        "p": 17000
+      },
+      {
+        "n": "Secure SME Business Plan",
+        "q": "1 Policy",
+        "p": 12400
+      }
+    ],
+    "total": 29400,
+    "status": "Pending Payment",
+    "source": "AI Call",
+    "time": "8:55 AM",
+    "delivery": "Physical Copy"
+  }
+]

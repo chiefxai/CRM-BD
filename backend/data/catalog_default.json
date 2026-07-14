@@ -1,0 +1,82 @@
+[
+  {
+    "id": "P001",
+    "name": "SureShield Term Life Plan",
+    "brand": "Life Insurance",
+    "unit": "policy",
+    "price": 1250,
+    "stock": 480
+  },
+  {
+    "id": "P002",
+    "name": "Family Health Shield Pro",
+    "brand": "Health Insurance",
+    "unit": "policy",
+    "price": 2800,
+    "stock": 12
+  },
+  {
+    "id": "P003",
+    "name": "Comprehensive Motor Cover",
+    "brand": "Auto Insurance",
+    "unit": "policy",
+    "price": 1850,
+    "stock": 60
+  },
+  {
+    "id": "P004",
+    "name": "Commercial Property Shield",
+    "brand": "Property Insurance",
+    "unit": "policy",
+    "price": 8500,
+    "stock": 35
+  },
+  {
+    "id": "P005",
+    "name": "Senior Citizen Health Cover",
+    "brand": "Health Insurance",
+    "unit": "policy",
+    "price": 4200,
+    "stock": 8
+  },
+  {
+    "id": "P006",
+    "name": "Critical Illness Multi-Shield",
+    "brand": "Health Insurance",
+    "unit": "policy",
+    "price": 1950,
+    "stock": 200
+  },
+  {
+    "id": "P007",
+    "name": "Homeowners Secure Policy",
+    "brand": "Property Insurance",
+    "unit": "policy",
+    "price": 3100,
+    "stock": 18
+  },
+  {
+    "id": "P008",
+    "name": "Personal Accident Cover",
+    "brand": "Accident Insurance",
+    "unit": "policy",
+    "price": 650,
+    "stock": 25
+  },
+  {
+    "id": "P009",
+    "name": "Secure SME Business Plan",
+    "brand": "Commercial Insurance",
+    "unit": "policy",
+    "price": 12400,
+    "stock": 14
+  },
+  {
+    "id": "P010",
+    "name": "Overseas Travel Protector",
+    "brand": "Travel Insurance",
+    "unit": "policy",
+    "price": 980,
+    "stock": 22
+  }
+]

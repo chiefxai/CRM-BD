@@ -1,0 +1,105 @@
+[
+  {
+    "id": "CALL-501",
+    "leadId": "L-101",
+    "leadName": "Sarah Jenkins",
+    "campaignId": "C-001",
+    "duration": 112,
+    "status": "Completed",
+    "sentiment": "Positive",
+    "intent": "Interested",
+    "transcript": [
+      {
+        "speaker": "AI",
+        "text": "Hello, am I speaking with Sarah Jenkins?",
+        "timestamp": "10:30:05"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yes, this is Sarah. Who is calling?",
+        "timestamp": "10:30:10"
+      },
+      {
+        "speaker": "AI",
+        "text": "Hi Sarah, I am the AI Loan Assistant from ChiefXAI. I saw you requested a $45,000 home improvement loan on our website. Is this a good time to verify a few details?",
+        "timestamp": "10:30:19"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Oh yes! I am actually looking to start remodeling our kitchen next month. So yes, I have a few minutes.",
+        "timestamp": "10:30:30"
+      },
+      {
+        "speaker": "AI",
+        "text": "Perfect! That kitchen renovation sounds exciting. I see you listed TechCorp Solutions as your employer. Could you confirm your monthly income of around $8,500?",
+        "timestamp": "10:30:44"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yes, that is correct. My credit score should be quite good too, around 740.",
+        "timestamp": "10:30:52"
+      },
+      {
+        "speaker": "AI",
+        "text": "Fantastic! That matches our pre-qualification criteria. I am transferring your file to our senior loan manager, David, and sending you a secure link to upload your paystub and bank statements. Would you be able to upload those today?",
+        "timestamp": "10:31:08"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yes, I can upload those as soon as I get the email. Thank you!",
+        "timestamp": "10:31:15"
+      },
+      {
+        "speaker": "AI",
+        "text": "Wonderful, Sarah. David will reach out to you within two hours. Have a wonderful day!",
+        "timestamp": "10:31:22"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Thanks, you too. Goodbye.",
+        "timestamp": "10:31:25"
+      }
+    ],
+    "summary": "Customer confirmed interest in $45K home improvement loan. Verified employer (TechCorp) and income ($8,500). Credit self-reported at 740. Lead assigned to David and document upload link requested.",
+    "createdAt": "2026-07-09T10:30:00Z"
+  },
+  {
+    "id": "CALL-502",
+    "leadId": "L-103",
+    "leadName": "Amanda Ross",
+    "campaignId": "C-001",
+    "duration": 45,
+    "status": "Completed",
+    "sentiment": "Negative",
+    "intent": "Not Interested",
+    "transcript": [
+      {
+        "speaker": "AI",
+        "text": "Hello Amanda, I am calling from ChiefXAI regarding your request for debt consolidation.",
+        "timestamp": "14:20:05"
+      },
+      {
+        "speaker": "Customer",
+        "text": "I am really busy. I actually changed my mind and do not want another loan.",
+        "timestamp": "14:20:15"
+      },
+      {
+        "speaker": "AI",
+        "text": "I understand, Amanda. We want to make sure we do not bother you if things have changed. Is it alright if we close your file for now?",
+        "timestamp": "14:20:25"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yes, please close it and do not call again.",
+        "timestamp": "14:20:31"
+      },
+      {
+        "speaker": "AI",
+        "text": "No problem at all. Your profile has been deactivated. Thank you for your time.",
+        "timestamp": "14:20:40"
+      }
+    ],
+    "summary": "Lead expressed immediate disinterest. Requested to close the file and stop outbound calls. Marked unqualified.",
+    "createdAt": "2026-07-09T14:20:00Z"
+  }
+]

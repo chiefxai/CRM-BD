@@ -1,0 +1,48 @@
+[
+  {
+    "id": "org-1",
+    "name": "Chief Capital LLC",
+    "workspaceName": "chief-capital-us",
+    "subscriptionPlan": "Growth",
+    "aiMinutesUsed": 2380,
+    "aiMinutesLimit": 10000,
+    "phoneCharges": 148.5,
+    "billingPeriodEnd": "2026-08-01",
+    "apiKeys": [
+      {
+        "service": "Gemini AI API",
+        "key": "••••••••••••••••3409",
+        "lastUsed": "2026-07-10T00:10:00Z"
+      },
+      {
+        "service": "Twilio SMS Gateway",
+        "key": "••••••••••••••••A9E1",
+        "lastUsed": "2026-07-09T18:32:00Z"
+      }
+    ],
+    "taxId": "82-0495829",
+    "nmlsId": "NMLS-994821",
+    "foundedYear": "2019",
+    "headquarters": "120 San Francisco St, Suite 400, San Francisco, CA 94103",
+    "website": "https://chiefcapital.ai",
+    "contactEmail": "contact@chiefcapital.ai",
+    "supportPhone": "+1 (800) 555-0199",
+    "complianceOfficer": "Sarah Jenkins",
+    "regulatoryJurisdictions": [
+      "California",
+      "Texas",
+      "Florida",
+      "New York"
+    ],
+    "businessType": "LLC",
+    "primaryLendingSectors": [
+      "Personal Loans",
+      "Mortgages",
+      "Auto Refinancing"
+    ],
+    "defaultInterestRate": 8.5,
+    "riskProfile": "Moderate",
+    "companyBio": "Chief Capital LLC is a premium technology-driven lending institution, delivering automated commercial and consumer financing solutions.",
+    "verificationStatus": "Verified"
+  }
+]

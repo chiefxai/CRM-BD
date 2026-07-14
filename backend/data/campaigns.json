@@ -1,0 +1,32 @@
+[
+  {
+    "id": "C-001",
+    "name": "Home Loan Retargeting",
+    "status": "Running",
+    "workflowId": "W-001",
+    "totalLeads": 48,
+    "calledLeads": 32,
+    "successfulCalls": 18,
+    "createdAt": "2026-07-08T08:00:00Z"
+  },
+  {
+    "id": "C-002",
+    "name": "Auto Refinance Outbound",
+    "status": "Completed",
+    "workflowId": "W-001",
+    "totalLeads": 120,
+    "calledLeads": 120,
+    "successfulCalls": 65,
+    "createdAt": "2026-06-20T09:30:00Z"
+  },
+  {
+    "id": "C-003",
+    "name": "Debt Consolidation Express",
+    "status": "Paused",
+    "workflowId": "W-001",
+    "totalLeads": 85,
+    "calledLeads": 14,
+    "successfulCalls": 5,
+    "createdAt": "2026-07-09T13:00:00Z"
+  }
+]

@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: chiefvoice-web
+    runtime: node
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false   # set manually in Render dashboard
+      - key: NODE_ENV
+        value: production

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "LN-201",
+    "leadId": "L-101",
+    "leadName": "Sarah Jenkins",
+    "amount": 45000,
+    "interestRate": 7.9,
+    "termMonths": 48,
+    "status": "Verification",
+    "monthlyEmi": 1096.35,
+    "paidEmiCount": 0,
+    "totalEmiCount": 48,
+    "nextPaymentDate": "2026-08-15",
+    "documents": [
+      {
+        "id": "D-301",
+        "name": "Sarah_Jenkins_W2_2025.pdf",
+        "type": "ID Proof",
+        "status": "Uploaded",
+        "fileSize": "1.2 MB"
+      },
+      {
+        "id": "D-302",
+        "name": "Sarah_Jenkins_Paystub_June.pdf",
+        "type": "Paystub",
+        "status": "Uploaded",
+        "fileSize": "840 KB"
+      }
+    ],
+    "history": [
+      {
+        "status": "Lead",
+        "updatedAt": "2026-07-01T10:30:00Z",
+        "note": "Created from website form.",
+        "updatedBy": "System"
+      },
+      {
+        "status": "Application",
+        "updatedAt": "2026-07-09T10:32:00Z",
+        "note": "AI call completed. Qualified. Application opened.",
+        "updatedBy": "AI Agent"
+      },
+      {
+        "status": "Verification",
+        "updatedAt": "2026-07-09T11:45:00Z",
+        "note": "Documents uploaded by customer. Ready for AI OCR verification.",
+        "updatedBy": "Sarah Jenkins"
+      }
+    ]
+  },
+  {
+    "id": "LN-202",
+    "leadId": "L-102",
+    "leadName": "Michael Chen",
+    "amount": 15000,
+    "interestRate": 5.4,
+    "termMonths": 36,
+    "status": "Repayment",
+    "monthlyEmi": 452.28,
+    "paidEmiCount": 3,
+    "totalEmiCount": 36,
+    "nextPaymentDate": "2026-07-25",
+    "documents": [
+      {
+        "id": "D-303",
+        "name": "Michael_Chen_DL.pdf",
+        "type": "ID Proof",
+        "status": "Verified",
+        "fileSize": "2.1 MB"
+      },
+      {
+        "id": "D-304",
+        "name": "Stripe_Offer_Letter.pdf",
+        "type": "Paystub",
+        "status": "Verified",
+        "fileSize": "1.5 MB"
+      }
+    ],
+    "history": [
+      {
+        "status": "Lead",
+        "updatedAt": "2026-07-02T14:15:00Z",
+        "note": "Inbound Facebook lead.",
+        "updatedBy": "System"
+      },
+      {
+        "status": "Approved",
+        "updatedAt": "2026-07-03T10:00:00Z",
+        "note": "Auto-qualified based on high credit score.",
+        "updatedBy": "Credit Committee"
+      },
+      {
+        "status": "Disbursement",
+        "updatedAt": "2026-07-04T15:30:00Z",
+        "note": "Funds wired to dealer invoice escrow account.",
+        "updatedBy": "Treasury"
+      },
+      {
+        "status": "Repayment",
+        "updatedAt": "2026-07-25T00:00:00Z",
+        "note": "Active repayment initiated. Auto-pay configured.",
+        "updatedBy": "System"
+      }
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "VN-401",
+    "number": "+1 (800) 555-8392",
+    "provider": "Twilio",
+    "status": "Active",
+    "friendlyName": "AI Main Outbound Line",
+    "routingUrl": "https://api.chiefxai.com/voice/inbound-main",
+    "incomingCallCount": 142,
+    "outgoingCallCount": 1240
+  },
+  {
+    "id": "VN-402",
+    "number": "+1 (888) 555-2983",
+    "provider": "Telnyx",
+    "status": "Active",
+    "friendlyName": "Collections Reminder Line",
+    "routingUrl": "https://api.chiefxai.com/voice/collections-route",
+    "incomingCallCount": 35,
+    "outgoingCallCount": 450
+  },
+  {
+    "id": "VN-403",
+    "number": "+1 (844) 555-1200",
+    "provider": "SIP Trunk",
+    "status": "Inactive",
+    "friendlyName": "Backup Agent Hotline",
+    "routingUrl": "https://api.chiefxai.com/voice/backup",
+    "incomingCallCount": 0,
+    "outgoingCallCount": 0
+  }
+]

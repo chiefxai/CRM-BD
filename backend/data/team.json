@@ -1,0 +1,38 @@
+[
+  {
+    "id": "T-201",
+    "name": "David Kael",
+    "email": "david.kael@chiefxai.com",
+    "role": "Sales Manager",
+    "status": "Active",
+    "performanceScore": 94,
+    "assignedLeadsCount": 12
+  },
+  {
+    "id": "T-202",
+    "name": "Alicia Keyser",
+    "email": "alicia.k@chiefxai.com",
+    "role": "Loan Agent",
+    "status": "Active",
+    "performanceScore": 88,
+    "assignedLeadsCount": 8
+  },
+  {
+    "id": "T-203",
+    "name": "Marcus Brody",
+    "email": "marcus.b@chiefxai.com",
+    "role": "Collection Agent",
+    "status": "Active",
+    "performanceScore": 81,
+    "assignedLeadsCount": 15
+  },
+  {
+    "id": "T-204",
+    "name": "Evelyn Shaw",
+    "email": "evelyn.s@chiefxai.com",
+    "role": "AI Agent Manager",
+    "status": "Active",
+    "performanceScore": 97,
+    "assignedLeadsCount": 0
+  }
+]

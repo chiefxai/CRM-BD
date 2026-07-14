@@ -1,0 +1,128 @@
+[
+  {
+    "id": "W-001",
+    "name": "Instant Personal Loan Qualifier",
+    "active": true,
+    "createdAt": "2026-06-15T08:00:00Z",
+    "nodes": [
+      {
+        "id": "node-1",
+        "type": "trigger",
+        "label": "New Lead Inbound",
+        "config": {
+          "triggerType": "new_lead"
+        },
+        "position": {
+          "x": 250,
+          "y": 50
+        }
+      },
+      {
+        "id": "node-2",
+        "type": "call",
+        "label": "Automated AI Outbound Call",
+        "config": {
+          "prompt": "You are ChiefXAI Assistant. Verify if the lead is interested in their requested loan amount and collect employer details."
+        },
+        "position": {
+          "x": 250,
+          "y": 180
+        }
+      },
+      {
+        "id": "node-3",
+        "type": "question",
+        "label": "Lead Interest Level",
+        "config": {
+          "questionText": "Is the customer interested in moving forward with the personal loan offer?",
+          "branches": [
+            {
+              "condition": "YES",
+              "targetId": "node-4"
+            },
+            {
+              "condition": "MAYBE",
+              "targetId": "node-5"
+            },
+            {
+              "condition": "NO",
+              "targetId": "node-6"
+            }
+          ]
+        },
+        "position": {
+          "x": 250,
+          "y": 310
+        }
+      },
+      {
+        "id": "node-4",
+        "type": "action",
+        "label": "Assign to Senior Agent & OCR Doc Quest",
+        "config": {
+          "actionType": "assign_agent",
+          "agentId": "T-201",
+          "tagName": "Hot Lead"
+        },
+        "position": {
+          "x": 80,
+          "y": 460
+        }
+      },
+      {
+        "id": "node-5",
+        "type": "action",
+        "label": "Schedule Call-back in 24 Hours",
+        "config": {
+          "actionType": "schedule_callback"
+        },
+        "position": {
+          "x": 250,
+          "y": 460
+        }
+      },
+      {
+        "id": "node-6",
+        "type": "action",
+        "label": "Mark Unqualified & Close",
+        "config": {
+          "actionType": "close_lead"
+        },
+        "position": {
+          "x": 420,
+          "y": 460
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1-2",
+        "source": "node-1",
+        "target": "node-2"
+      },
+      {
+        "id": "e2-3",
+        "source": "node-2",
+        "target": "node-3"
+      },
+      {
+        "id": "e3-4",
+        "source": "node-3",
+        "target": "node-4",
+        "label": "YES"
+      },
+      {
+        "id": "e3-5",
+        "source": "node-3",
+        "target": "node-5",
+        "label": "MAYBE"
+      },
+      {
+        "id": "e3-6",
+        "source": "node-3",
+        "target": "node-6",
+        "label": "NO"
+      }
+    ]
+  }
+]
